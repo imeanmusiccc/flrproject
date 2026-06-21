@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/popup.js"></script>
+    <script src="javascripts/menu.js"></script>
+    <script src="javascripts/anim.js"></script>
+    <title>FLARE - Мероприятия</title>
+</head>
+<body>
+    <div class="main-page">
+        <img src="img/events.svg" class="bg-image desktop">
+        <img src="img/eventsmobile.svg" class="bg-image mobile">
+        <div class="main-content">
+
+            <header class="header-menu">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg">
+                </a>
+                <nav class="nav-links desktop">
+                    <a href="services.html">услуги</a>
+                    <a href="merch.html">магазин</a>
+                    <a href="about.html">о нас</a>
+                </nav>
+                <div class="burger-btn mobile" id="burgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            <div class="burger-overlay mobile" id="burgerOverlay"></div>
+
+            <div class="burger-menu mobile" id="burgerMenu">
+                <div class="burger-close" id="burgerClose">
+                </div>
+                <nav class="burger-nav">
+                    <a href="about.html">о нас</a>
+                    <a href="services.html">услуги</a>
+                    <a href="merch.html">магазин</a>
+                </nav>
+                <img class="burger-image" src="img/footer_img.svg">
+            </div>
+
+            <div class="events-container">
+                <div class="events-text">
+                    <p>Маршруты встреч.</p>
+                    <p>Не случайные события.</p>
+                    <p>Осознанные знакомства.</p>
+                </div>
+
+                <div class="events-grid">
+                    <div class="stats_card">
+                        <img class="stats_logo" src="img/logo.svg">
+                        <div class="stats-content">
+                            <div class="stats_top">
+                                <div class="events_value">Вечер осознанных знакомств</div>
+                            </div>
+                            <a class="stats_more" href="services.html">подробнее <img class="stats_arrow" src="img/arrow.svg"></a>
+                        </div>
+                    </div>
+                    <div class="stats_card">
+                        <img class="stats_logo" src="img/logo.svg">
+                        <div class="stats-content">
+                            <div class="stats_top">
+                                <div class="events_value">Свидания вслепую</div>
+                            </div>
+                            <a class="stats_more" href="services.html">подробнее <img class="stats_arrow" src="img/arrow.svg"></a>
+                        </div>
+                    </div>
+                    <div class="stats_card">
+                        <img class="stats_logo" src="img/logo.svg">
+                        <div class="stats-content">
+                            <div class="stats_top">
+                                <div class="events_value">Еженедельные лекции</div>
+                            </div>
+                            <a class="stats_more" href="services.html">подробнее <img class="stats_arrow" src="img/arrow.svg"></a>
+                        </div>
+                    </div>
+                    <div class="stats_card">
+                        <img class="stats_logo" src="img/logo.svg">
+                        <div class="stats-content">
+                            <div class="stats_top">
+                                <div class="events_value">Еженедельные мастер-классы</div>
+                            </div>
+                            <a class="stats_more" href="services.html">подробнее <img class="stats_arrow" src="img/arrow.svg"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="event-detail">
+                <img class="event-detail_photo" src="img/events_picture.png">
+                <div class="event-detail_body">
+                    <h2 class="event-detail_title">Вечер осознанных <br> знакомств</h2>
+                    <div class="event-detail_bottom">
+                        <p class="event-detail_desc">Формат живых встреч, где участники <br> уже подобраны по совместимости,<br> без свайпов и бесконечных <br> переписок. Только живые диалоги в <br>комфортной атмосфере.</p>
+                        <div class="button-wrap buy_button">
+                            <a href="#">забронировать <img src="img/btnarrow.svg"></a>
+                        </div>
+                    </div>
+                    <div class="event-detail_features">
+                        <div class="event-detail_feature">
+                            <img class="event-detail_icon" src="img/events_logo1.png">
+                            <span>До 20 <br>участников</span>
+                        </div>
+                        <div class="event-detail_feature">
+                            <img class="event-detail_icon" src="img/events_logo2.png">
+                            <span>Учитываем совместимость</span>
+                        </div>
+                        <div class="event-detail_feature">
+                            <img class="event-detail_icon" src="img/events_logo3.png">
+                            <span>Приятная атмосфера</span>
+                        </div>
+                        <div class="event-detail_feature">
+                            <img class="event-detail_icon" src="img/events_logo4.png">
+                            <span>Внимание к деталям</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+
+            <div class="event-blind">
+                <div class="event-blind_content">
+                    <div class="event-blind_top">
+                    <h2 class="event-blind_title">Свидания вслепую</h2>
+                    <p class="event-blind_desc">Мы подбираем пару <br class="mobile"> аналитически и берём <br class="mobile"> организацию на себя.<br class="mobile"> Локация, сценарий встречи<br class="mobile"> и темы для разговора <br class="mobile"> продуманы заранее.</p>
+                    </div>
+                    <div class="event-blind_steps">
+                    <span>1. Подбор</span>
+                    <span>2. Подготовка</span>
+                    <span>3. Встреча</span>
+                    <span>4. Обратная связь</span>
+                    </div>
+                    <div class="button-wrap buy_button">
+                    <a href="#">забронировать <img src="img/btnarrow.svg"></a>
+                    </div>
+                </div>
+                <img class="event-blind_photo desktop" src="img/events_picture2.png">
+                <img class="event-blind_photo mobile" src="img/events_picture2m.png">
+            </div>
+            
+            <div class="event-lecture">
+                <div class="event-lecture_content">
+                    <h2 class="event-lecture_title">Лекция "Как <br class="mobile"> выбрать <br class="desktop"> партнера, <br class="mobile">а не проект".</h2>
+                    <div class="event-lecture_tags"> 
+                    <div class="event-lecture_tag">
+                        <img src="img/events_logo5.png">
+                        <span>Образовательное <br> событие</span>
+                    </div>
+                    <div class="event-lecture_divider"></div>
+                    <div class="event-lecture_tag">
+                        <img src="img/events_logo6.png">
+                        <span>Познание <br class="mobile"> себя</span>
+                    </div>
+                    </div>
+                    <p class="event-lecture_desc">Короткая лекция психолога о <br class="mobile"> сценариях и стилях <br class="mobile"> привязанности, затем завтрак в <br class="mobile"> малых группах, где участники <br class="mobile"> обсуждают и знакомятся в <br class="mobile"> расслабленном формате.</p>
+                    <div class="button-wrap buy_button">
+                    <a href="#">записаться <img src="img/btnarrow.svg"></a>
+                    </div>
+                </div>
+                <img class="event-lecture_photo" src="img/events_picture3.png">
+            </div>
+            
+            <div class="event-master">
+                <img class="event-master_photo" src="img/events_picture4.png">
+                <div class="event-master_content">
+                    <h2 class="event-master_title">Мастер-класс "Как <br class="mobile"> собрать идеальное <br class="mobile"> свидание под ключ".</h2>
+                    <p class="event-master_desc">Практический мастер-класс для тех, <br class="mobile">кто хочет создавать свидания, в <br class="mobile"> которых легко раскрыться и <br class="mobile"> почувствовать интерес друг к другу.</p>
+                    <div class="event-master_steps">
+                    <div class="event-master_step">
+                        <img src="img/events_logo7.png">
+                        <span>Место</span>
+                    </div>
+                    <img class="event-master_arrow" src="img/eventsarrow.svg">
+                    <div class="event-master_step">
+                        <img src="img/events_logo4.png">
+                        <span>Вопросы</span>
+                    </div>
+                    <img class="event-master_arrow" src="img/eventsarrow.svg">
+                    <div class="event-master_step">
+                        <img src="img/events_logo3.png">
+                        <span>Атмосфера</span>
+                    </div>
+                    <img class="event-master_arrow" src="img/eventsarrow.svg">
+                    <div class="event-master_step">
+                        <img src="img/events_logo8.png">
+                        <span>Анализ</span>
+                    </div>
+                    <img class="event-master_arrow" src="img/eventsarrow.svg">
+                    <div class="event-master_step">
+                        <img src="img/events_logo1.png">
+                        <span>Встреча</span>
+                    </div>
+                    </div>
+                    <div class="button-wrap buy_button">
+                    <a href="#">записаться <img src="img/btnarrow.svg"></a>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="footer" style="margin: 0;">
+               <div class="footer_nav">
+                    <div class="footer_col">
+                    <a href="index.html" class="footer_link">Главная</a>
+                    <a href="merch.html" class="footer_link">Магазин</a>
+                    <a href="about.html" class="footer_link">О нас</a>
+                    </div>
+                    <div class="footer_col">
+                        <a href="services.html" class="footer_link">Услуги</a>
+                    <a href="events.html" class="footer_link">Мероприятия</a>
+                    </div>
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="footer_info">
+                    <p class="footer_curators">Кураторы: Камила Рихтер, Нона Аракелян, Артём Латышев</p>
+                    <p class="footer_copy">© 2026 FLARE, Кузнецов Матвей Б25УКИ03</p>
+                    </div>
+                    <a href="index.html"><img class="footer_logo" src="img/logo.svg"></a>
+                </div>
+            </footer> 
+        </div>
+    </div>
+    <div class="contact-popup-overlay" id="contactPopup">
+        <div class="contact-popup">
+            <img src="img/popup_contact.png" class="contact-popup_bg">
+            <div class="contact-popup_content">
+            <h2 class="contact-popup_title">Введите ваши данные</h2>
+            <div class="contact-popup_fields">
+                  <div class="contact-popup_field">
+                    <span class="contact-popup_label">Введи номер телефона</span>
+                    <input class="contact-popup_input" type="text">
+                </div>
+                  <div class="contact-popup_field">
+                    <span class="contact-popup_label">Введи адрес почты</span>
+                    <input class="contact-popup_input" type="text">
+                </div>
+            </div>
+            <div class="button-wrap contact-popup_btn">
+                <a href="404.html">продолжить <img src="img/Arrow28.png"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

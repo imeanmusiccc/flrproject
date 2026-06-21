@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/merch.js"></script>
+    <script src="javascripts/popup.js"></script>
+    <script src="javascripts/menu.js"></script>
+    <script src="javascripts/anim.js"></script>
+    <title>FLARE - Магазин</title>
+</head>
+<body>
+    <div class="main-page">
+        <img src="img/merch.svg" class="bg-image desktop">
+        <img src="img/merch_mobile.svg" class="bg-image mobile">
+        <div class="main-content">
+             <header class="header-menu">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg">
+                </a>
+                <nav class="nav-links desktop">
+                    <a href="about.html">о нас</a>
+                    <a href="services.html">услуги</a>
+                    <a href="events.html">мероприятия</a>
+                </nav>
+                <div class="burger-btn mobile" id="burgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+
+            <div class="burger-overlay mobile" id="burgerOverlay"></div>
+            <div class="burger-menu mobile" id="burgerMenu">
+                <div class="burger-close" id="burgerClose">
+                </div>
+                <nav class="burger-nav">
+                    <a href="about.html">о нас</a>
+                    <a href="services.html">услуги</a>
+                    <a href="events.html">мероприятия</a>
+                </nav>
+                <img class="burger-image" src="img/footer_img.svg">
+            </div>
+
+            <div class="merchintro-container">
+                <div class="merchintro-text">
+                    <div class="intro-title">
+                        FLARE
+                    </div>
+                    <div class="merchintro-label">
+                        Наш мерч для тех, кто верит в<br>
+                        осознанное отношение и <br>
+                        выбирает путь к своему <br>
+                        человеку.
+                    </div>
+                </div>
+                <div class="merchintro-picture">
+                    <img src="img/merch_picture.png">
+                </div>
+            </div>
+
+             <div class="merch-grid">
+                <div class="merch-card">
+                    <div class="merch-card_image-wrap">
+                        <div class="merch-card_arrow arrow-left">
+                            <img src="img/arrowleft.svg" >
+                        </div>
+                        <img src="img/jacket1.png" class="merch-card_photo" data-images="img/jacket1.png,img/jacket2.png" data-current="0">
+                        <div class="merch-card_arrow arrow-right">
+                        <img src="img/arrowright.svg">
+                        </div>
+                    </div>
+                        <div class="merch-card_info">
+                            <div class="merch-card_name">MATW flare jacket</div>
+                            <div class="merch-card_price">20990</div>
+                        </div>
+                    </div>
+
+                    <div class="merch-card">
+                    <div class="merch-card_image-wrap">
+                        <div class="merch-card_arrow arrow-left">
+                        <img src="img/arrowleft.svg">
+                        </div>
+                        <img src="img/cap1.png" class="merch-card_photo" data-images="img/cap1.png,img/cap2.png" data-current="0">
+                        <div class="merch-card_arrow arrow-right">
+                        <img src="img/arrowright.svg">
+                        </div>
+                    </div>
+                    <div class="merch-card_info">
+                        <div class="merch-card_name">STRM flare cap</div>
+                        <div class="merch-card_price">4990</div>
+                    </div>
+                    </div>
+
+                    <div class="merch-card">
+                    <div class="merch-card_image-wrap">
+                        <div class="merch-card_arrow arrow-left">
+                        <img src="img/arrowleft.svg">
+                        </div>
+                        <img class="merch-card_photo" src="img/shirt1.png" data-images="img/shirt1.png,img/shirt2.png" data-current="0">
+                        <div class="merch-card_arrow arrow-right">
+                        <img src="img/arrowright.svg">
+                        </div>
+                    </div>
+                    <div class="merch-card_info">
+                        <div class="merch-card_name">SUM flare shirt</div>
+                        <div class="merch-card_price">7990</div>
+                    </div>
+                </div>
+            </div>
+            <div class="merch-grid second">
+                <div class="merch-card">
+                    <div class="merch-card_image-wrap">
+                        <div class="merch-card_arrow arrow-left">
+                        <img src="img/arrowleft.svg">
+                        </div>
+                        <img src="img/bag1.png" class="merch-card_photo" data-images="img/bag1.png,img/bag2.png" data-current="0">
+                        <div class="merch-card_arrow arrow-right">
+                        <img src="img/arrowright.svg">
+                        </div>
+                    </div>
+                    <div class="merch-card_info">
+                        <div class="merch-card_name">SHES flare BAG</div>
+                        <div class="merch-card_price">50990</div>
+                    </div>
+                    </div>
+
+                    <div class="merch-card">
+                    <div class="merch-card_image-wrap">
+                        <div class="merch-card_arrow arrow-left">
+                        <img src="img/arrowleft.svg">
+                        </div>
+                        <img src="img/tshirt1.png" class="merch-card_photo" data-images="img/tshirt1.png,img/tshirt2.png" data-current="0">
+                        <div class="merch-card_arrow arrow-right">
+                        <img src="img/arrowright.svg">
+                        </div>
+                    </div>
+                    <div class="merch-card_info">
+                        <div class="merch-card_name">ORG flare wht teee</div>
+                        <div class="merch-card_price">4990</div>
+                    </div>
+                    </div>
+
+                    <div class="merch-card">
+                    <div class="merch-card_image-wrap">
+                        <div class="merch-card_arrow arrow-left">
+                        <img src="img/arrowleft.svg">
+                        </div>
+                        <img class="merch-card_photo" src="img/hoodie1.png" data-images="img/hoodie1.png,img/hoodie2.png" data-current="0">
+                        <div class="merch-card_arrow arrow-right">
+                        <img src="img/arrowright.svg">
+                        </div>
+                    </div>
+                    <div class="merch-card_info">
+                        <div class="merch-card_name">EWQ flare hoodie</div>
+                        <div class="merch-card_price">6990</div>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <div class="footer_nav">
+                    <div class="footer_col">
+                        <a href="index.html" class="footer_link">Главная</a>
+                        <a href="merch.html" class="footer_link">Магазин</a>
+                        <a href="about.html" class="footer_link">О нас</a>
+                    </div>
+                    <div class="footer_col">
+                        <a href="services.html" class="footer_link">Услуги</a>
+                        <a href="events.html" class="footer_link">Мероприятия</a>
+                    </div>
+                </div>
+                <div class="footer_bottom">
+                    <div class="footer_info mch">
+                    <p class="footer_curators">Кураторы: Камила Рихтер, Нона Аракелян, Артём Латышев</p>
+                    <p class="footer_copy">© 2026 FLARE, Кузнецов Матвей Б25УКИ03</p>
+                    </div>
+                    <a href="index.html"><img class="footer_logo" src="img/logo.svg"></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="merch-popup-overlay" id="merchPopup">
+     <div class="merch-popup">
+        <img src="img/popup_bg.png" class="merch-popup_bg">
+        <div class="merch-popup_left">
+            <div class="merch-popup_image-wrap">
+                <div class="merch-card_arrow arrow-left" id="popupArrowLeft">
+                    <img src="img/arrowleft.svg">
+                </div>
+                <img src="" class="merch-popup_photo" id="popupPhoto">
+                <div class="merch-card_arrow arrow-right" id="popupArrowRight">
+                    <img src="img/arrowright.svg">
+                </div>
+            </div>
+            <div class="merch-popup_name" id="popupName"></div>
+            <div class="merch-popup_price" id="popupPrice"></div>
+        </div>
+        <div class="merch-popup_content">
+            <div class="merch-popup_desc" id="popupDesc"></div>
+            <div class="button merch-popup_buy" id="popupBuy">
+                <div class="button-wrap buy_button">
+                    <a href="#">приобрести
+                    <img src="img/btnarrow.svg">
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="contact-popup-overlay" id="contactPopup">
+        <div class="contact-popup">
+            <img src="img/popup_contact.png" class="contact-popup_bg">
+            <div class="contact-popup_content">
+            <h2 class="contact-popup_title">Введите ваши данные</h2>
+            <div class="contact-popup_fields">
+                  <div class="contact-popup_field">
+                    <span class="contact-popup_label">Введи номер телефона</span>
+                    <input class="contact-popup_input" type="text">
+                </div>
+                  <div class="contact-popup_field">
+                    <span class="contact-popup_label">Введи адрес почты</span>
+                    <input class="contact-popup_input" type="text">
+                </div>
+            </div>
+            <div class="button-wrap contact-popup_btn">
+                <a href="404.html">продолжить <img src="img/Arrow28.png"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

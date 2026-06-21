@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <script src="javascripts/popup.js"></script>
+    <script src="javascripts/menu.js"></script>
+    <script src="javascripts/anim.js"></script>
+    <title>FLARE - Услуги</title>
+</head>
+<body>
+    <div class="main-page">
+        <img src="img/service.svg" class="bg-image desktop">
+        <img src="img/service_mobile.svg" class="bg-image mobile">
+        <div class="main-content">
+
+         <header class="header-menu">
+                <a href="index.html" class="logo">
+                    <img src="img/logo.svg">
+                </a>
+                <nav class="nav-links desktop">
+                    <a href="about.html">о нас</a>
+                    <a href="merch.html">магазин</a>
+                    <a href="events.html">мероприятия</a>
+                </nav>
+                <div class="burger-btn mobile" id="burgerBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </header>
+            <div class="burger-overlay mobile" id="burgerOverlay"></div>
+
+            <div class="burger-menu mobile" id="burgerMenu">
+                <div class="burger-close" id="burgerClose">
+                </div>
+                <nav class="burger-nav">
+                    <a href="about.html">о нас</a>
+                    <a href="merch.html">магазин</a>
+                    <a href="events.html">мероприятия</a>
+                </nav>
+                <img class="burger-image" src="img/footer_img.svg">
+            </div>
+
+           <div class="serviceintro-container">
+                <div class="serviceintro-text">
+                    <div class="intro-title">
+                        Услуги FLARE
+                    </div>
+                     <div class="serviceintro-aftertitle">
+                        Разные запросы.<br>
+                        Разные этапы.<br>
+                        Один осознанный путь.
+                    </div>
+                    <div class="serviceintro-label">
+                        Мы помогаем найти партнёра, <br class="mobile"> укрепить <br class="desktop"> существующие отношения <br class="mobile"> или <br class="desktop"> разобраться в себе.
+                    </div>
+                </div>
+                <div class="serviceintro-picture">
+                    <img src="img/service_picture.png">
+                </div>
+            </div>
+
+            <div class="service-row row1">
+            <span class="service-row_num green">01</span>
+                <img class="service-row_icon" src="img/icon1.png">
+                <div class="service-row_middle">
+                    <span class="service-row_name">Персональный<br>подбор партнёра</span>
+                    <p class="service-row_desc">Находим человека, который <br> подходит именно вам.</p>
+                </div>
+                <ul class="service-row_list">
+                    <li>глубинное интервью</li>
+                    <li>анализ ценностей</li>
+                    <li>профиль совместимости</li>
+                    <li>сопровождение знакомства</li>
+                </ul>
+                <div class="button-wrap buy_button">
+                    <a href="#">приобрести <img src="img/btnarrow.svg"></a>
+                </div>
+            </div>
+            
+            <div class="service-row row2">
+                <span class="service-row_num blue">02</span>
+                <img class="service-row_icon" src="img/icon1.png">
+                <div class="service-row_middle">
+                    <span class="service-row_name">Консультации <br> пар</span>
+                    <p class="service-row_desc">Для пар, которые хотят <br> осознанно развивать их и <br> укреплять эмоциональную <br> близость.</p>
+                </div>
+                <ul class="service-row_list">
+                    <li>диагностика отношений</li>
+                    <li>разбор сложных ситуаций</li>
+                    <li>развитие взаимопонимания</li>
+                    <li>сопровождение пары</li>
+                </ul>
+                <div class="button-wrap buy_button">
+                    <a href="#">приобрести <img src="img/btnarrow.svg"></a>
+                </div>
+            </div>
+            <div class="service-row row3">
+                <span class="service-row_num yellow">03</span>
+                <img class="service-row_icon" src="img/icon1.png">
+                <div class="service-row_middle">
+                    <span class="service-row_name">Свидания<br> под ключ</span>
+                    <p class="service-row_desc">Мы организуем свидание <br> полностью: от подбора концепции <br>до сценария общения. </p>
+                </div>
+                <ul class="service-row_list">
+                    <li>подбор формата свидания</li>
+                    <li>выбор локации</li>
+                    <li>сценарий и темы для общения</li>
+                    <li>рекомендации перед встречей</li>
+                </ul>
+                <div class="button-wrap buy_button">
+                    <a href="#">приобрести <img src="img/btnarrow.svg"></a>
+                </div>
+            </div>
+
+            <div class="how-block">
+                <h2 class="how-block_title desktop">Как проходит работа</h2>
+                <div class="how-block_steps">
+                    <div class="how-block_step">
+                        <span class="how-block_num yellow num1">01</span>
+                        <span class="how-block_name">Изучаем запрос</span>
+                        <p class="how-block_desc">Понимаем <br> ситуацию, цели и <br> ожидания.</p>
+                        <img class="how-block_icon icon1" src="img/service_icon1.svg">
+                    </div>
+                    <div class="how-block_step">
+                        <span class="how-block_num blue num2">02</span>
+                        <span class="how-block_name">Анализируем</span>
+                        <p class="how-block_desc">Используем <br> психологические <br> инструменты.</p>
+                        <img class="how-block_icon icon2" src="img/service_icon2.svg">
+                    </div>
+                    <div class="how-block_step">
+                        <span class="how-block_num green num3">03</span>
+                        <span class="how-block_name">Строим маршрут</span>
+                        <p class="how-block_desc">Подбираем <br> формат работы и <br> план действий.</p>
+                        <img class="how-block_icon icon3" src="img/service_icon3.svg">
+                    </div>
+                    <div class="how-block_step">
+                        <span class="how-block_num pink num41">04</span>
+                        <span class="how-block_name">Сопровождаем</span>
+                        <p class="how-block_desc">Помогаем двигаться к <br> устойчивому <br> результату.</p>
+                        <img class="how-block_icon icon4" src="img/service_icon4.svg">
+                    </div>
+                </div>
+            </div>
+            <div class="stats-block block-services">
+                <div class="stats-block_item">
+                    <img src="img/logo.svg" class="stats-block_logo">
+                    <div class="stats-block_text">
+                    <h3>8</h3>
+                    <p>лет опыта</p>
+                    </div>
+                </div>
+                <div class="stats-block_item">
+                    <img src="img/logo.svg" class="stats-block_logo">
+                    <div class="stats-block_text">
+                    <h3>35+</h3>
+                    <p>экспертов</p>
+                    </div>
+                </div>
+                <div class="stats-block_item">
+                    <img src="img/logo.svg" class="stats-block_logo">
+                    <div class="stats-block_text">
+                    <h3>97%</h3>
+                    <p>успешной совместимости</p>
+                    </div>
+                </div>
+                <div class="stats-block_item">
+                    <img src="img/logo.svg" class="stats-block_logo">
+                    <div class="stats-block_text">
+                    <h3>12000+</h3>
+                    <p>счастливых пар</p>
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="footer_nav">
+                    <div class="footer_col">
+                        <a href="index.html" class="footer_link">Главная</a>
+                        <a href="merch.html" class="footer_link">Магазин</a>
+                        <a href="about.html" class="footer_link">О нас</a>
+                    </div>
+                    <div class="footer_col">
+                        <a href="services.html" class="footer_link">Услуги</a>
+                        <a href="events.html" class="footer_link">Мероприятия</a>
+                    </div>
+                </div>
+
+                <div class="footer_bottom">
+                    <div class="footer_info">
+                    <p class="footer_curators">Кураторы: Камила Рихтер, Нона Аракелян, Артём Латышев</p>
+                    <p class="footer_copy">© 2026 FLARE, Кузнецов Матвей Б25УКИ03</p>
+                    </div>
+                    <a href="index.html"><img class="footer_logo" src="img/logo.svg"></a>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <div class="contact-popup-overlay" id="contactPopup">
+        <div class="contact-popup">
+            <img src="img/popup_contact.png" class="contact-popup_bg">
+            <div class="contact-popup_content">
+            <h2 class="contact-popup_title">Введите ваши данные</h2>
+            <div class="contact-popup_fields">
+                  <div class="contact-popup_field">
+                    <span class="contact-popup_label">Введи номер телефона</span>
+                    <input class="contact-popup_input" type="text">
+                </div>
+                  <div class="contact-popup_field">
+                    <span class="contact-popup_label">Введи адрес почты</span>
+                    <input class="contact-popup_input" type="text">
+                </div>
+            </div>
+            <div class="button-wrap contact-popup_btn">
+                <a href="404.html">продолжить <img src="img/Arrow28.png"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

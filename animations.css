@@ -1,0 +1,8 @@
+.logo img {
+    animation: logo 2s ease-in-out infinite alternate;
+}
+
+@keyframes logo {
+    0%   { transform: rotate(-8deg); }
+    100% { transform: rotate(8deg); }
+}
